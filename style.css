@@ -5,8 +5,28 @@
     background-color: #73C6B6;
     padding: 5px;
 }
+body{
+    background-color: lightgray;
+}
+h1{
+    color: #73C6B6;
+    font-size: 30px;
+}
+img{
+    float: left;
+    margin:0 10px 10px 10px;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    float: center;
+}
+
 
 @media (max-width: 600px) {
+    body{
+        background-color: white;
+    }
     .navbar1{
         display: none;
     }
@@ -20,8 +40,19 @@
     .dropdown-menu{
         background-color: #73C6B6;       
     }
+    .info{
+        background-color: white;
+        width: 100%;
+    }
+    .visualizations{
+        background-color: white;
+        width: 100%;
+    }
 }
 @media (min-width: 601px){
+    body{
+        background-color: lightgray;
+    }
     .navbar1{
         visibility: visible;
     }
@@ -34,5 +65,19 @@
     }
     .dropdown-menu{
         background-color: white;       
+    }
+    .info{
+        background-color: white;
+        width: 50%;
+        float: left;
+        margin: 5px;
+        padding: 5px;
+    }
+    .visualizations{
+        background-color: white;
+        width: 42%;
+        float: left;
+        margin: 5px;
+        padding: 5px;
     }
 }
